@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="437">
+      <path
+        fill="#D6E1FF"
+        fill-rule="evenodd"
+        d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"
+      />
+    </svg>
+    <div class="bigbox" style="position: absolute; top: 3.125em; left: 33em">
+      <div class="photo">
+        <img src="illustration-hero.svg" alt="" />
+      </div>
+      <div class="summary">
+        <h3>Order Summary</h3>
+        <div class="p">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </div>
+      </div>
+
+      <div class="what">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px;
+            background-color: hsl(225, 100%, 98%);
+            width: 80%;
+            height: 30px;
+            border-radius: 15px;
+          "
+        >
+          <div style="background-color: hsl(225, 100%, 98%)">
+            <img
+              style="
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              "
+              src="icon-music.svg"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="annual"
+            style="
+              background-color: hsl(225, 100%, 98%);
+              margin: 10px auto 10px 5px;
+            "
+          >
+            <h2
+              class="annualplan"
+              style="
+                font-size: 13px;
+                font-weight: 900;
+                background-color: hsl(225, 100%, 98%);
+                line-height: 5px;
+                margin-left: 10px;
+              "
+            >
+              Annual Plan
+            </h2>
+
+            <div
+              style="
+                font-size: 13px;
+                font-weight: 700;
+                color: black;
+                opacity: 0.5;
+                background-color: hsl(225, 100%, 98%);
+                margin-left: 10px;
+              "
+              class="money"
+            >
+              $59.99/year
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="change"
+          style="
+            font-size: 10px;
+            background-color: hsl(225, 100%, 98%);
+            padding-right: 20px;
+            color: hsl(251, 100%, 40%);
+            font-weight: 900;
+          "
+          href="#"
+        >
+          Change
+        </a>
+      </div>
+      <a href="#" class="button">Proceed to Payment</a>
+      <a href="#" class="cancel">Cancel Order</a>
+    </div>
+
+    <div
+      class="attribution"
+      style="position: absolute; bottom: 0em; left: 50em"
+    >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by
+      <a href="https://github.com/seydaklc">Seyda Kilic</a>
+      .
+    </div>
+  </body>
+</html>
